@@ -1,0 +1,82 @@
+
+body{
+  background-image: url("http://localhost/pizzeria/imagenes/fondoLogin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.login{
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: 200px;
+  border-radius: 15px;
+  border: 5px solid rgb(236, 113, 9);
+  background-image: url("http://localhost/pizzeria/imagenes/imagenFondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 0.9;
+}
+
+.login h1{
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(37, 208, 238);
+}
+
+.login label{
+  margin: 0,10px,0,10px;
+  font-weight: bold;
+  display: block;
+  color: rgb(241, 157, 13);
+  font-size: 25px;
+  opacity: 2;
+}
+.login input[type="email"]{
+  border: none;
+  border-bottom: 1px solid rgb(235, 112, 23);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(136, 238, 66);
+  font-size: 16px;
+  width: 98%;
+  margin-bottom: 25px;
+  text-align:
+}
+.login input[type="password"]{
+  border: none;
+  border-bottom: 1px solid rgb(235, 112, 23);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(136, 238, 66);
+  font-size: 16px;
+  width: 98%;
+  margin-bottom: 25px;
+}
+.login input[type="submit"]{
+  outline: none;
+  height: 40px;
+  background: rgb(244, 132, 40);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  poin
+  margin: none;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  }
+  .login a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(11, 223, 39);
+    font-weight: bolder;
+  }

@@ -1,0 +1,64 @@
+body{
+  background-image: url("http://localhost/pizzeria/imagenes/napolitanaSlider.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.informacionCliente{
+  padding: 10px;
+  width: 400px;
+  height: 630px;
+  border-radius: 10%;
+  border: 5px solid  rgb(94, 86, 236);
+  background: rgb(224, 238, 222);
+  margin: auto;
+  background-image: url("http://localhost/pizzeria/imagenes/imagenFondo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  /*CreacionCuenta*/
+}
+.informacionCliente h1{
+  text-align: center;
+}
+
+.informacionCliente input[type="email"],input[type="text"],
+input[type="tel"],input[type="password"]{
+  border: 3px solid rgb(94, 86, 236);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  width: 98%;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  background: white;
+}
+
+.informacionCliente input[type="submit"]{
+  outline: none;
+  height: 40px;
+  background: rgb(94, 86, 236);
+  color: white;
+  border: 1px solid  rgb(94, 86, 236);
+  margin-bottom: 25px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.informacionCliente label{
+  background: rgb(94, 86, 236);;
+  outline: none;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: monospace;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 10px;
+
+}

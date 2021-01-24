@@ -1,0 +1,39 @@
+.registrarPizza{
+  border: 5px solid rgba(148, 98, 209, 0.75);
+  margin: none;
+}
+legend{
+  text-align: center;
+  color: rgb(103, 113, 15);
+  font-family: cursive;
+  font-size: 20px;
+}
+.imagenPizza{
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+}
+.pedirPizza{
+  padding: 10px;
+  border: 4px solid rgb(103, 230, 34);
+  border-radius: 10px;
+  height: 150px;
+  width: 300px;
+  transform: translate(140%, -160%);
+  margin: 40px;
+}
+.registrarPizza label{
+  font-size: 20px;
+  font-family: cursive;
+  color: rgb(41, 48, 218);
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.registrarPizza input[type="number"]{
+  margin: 10px 0px 10px 0px;
+  width: 40px;
+}
+.registrarPizza input[type="submit"]{
+  margin: 30px 20px 30px 20px;
+}
